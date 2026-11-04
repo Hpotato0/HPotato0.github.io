@@ -53,12 +53,10 @@
   <div class="row clearfix"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
         <span class="profile-img" style="background-image: url(/images/me.png)"></span>
       </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-      <p>I am a second-year PhD student at Georgia Tech advised by <a href="https://moin.cc.gatech.edu/">Prof. Moinuddin Qureshi</a>. Currently my research focuses on optimizing the GPU memory system to efficiently serve large language models.
+      <p>I am a third-year PhD student at Georgia Tech advised by <a href="https://moin.cc.gatech.edu/">Prof. Moinuddin Qureshi</a>. My research focuses on computer architecture and systems for AI workloads. My recent work includes data movement optimization in CPU-GPU systems for LLM inference, GPU memory system design for emerging memory technologies such as High-Bandwidth Flash, and efficient mixture-of-experts inference.
       </p>
 
-      <p>I received my B.S. from Seoul National University, where I worked with <a href="https://scale.snu.ac.kr/members/">Prof. Jung Ho Ahn</a> on accelerating machine learning under fully homomorphic encryption (FHE) and with <a href="https://iamjinholee.github.io/jinho.html">Prof. Jinho Lee</a> on a function-in-memory DRAM architecture for efficient graph processing.</p>
-
-      <p>You can view my CV <a href="CV_Jae_2509.pdf">here</a>.</p>
+      <p>You can view my CV <a href="CV_Jae_2611.pdf">here</a>.</p>
 
     </div>
   </div>
@@ -88,13 +86,27 @@ BS in Electrical and Computer Engineering</p>
             <h3 id="work-experience">Work Experience</h3>
   <div class="row clearfix layout layout-left border-no">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="qualcomm">Qualcomm</h4><p><b>Engineering Intern</b></p><p>May 2025 - Aug 2025</p><p class="no-print aditional-links">
-        
+      <h4 id="microsoft">Microsoft</h4><p><b>Research Intern</b></p><p>May 2026 - Aug 2026</p><p class="no-print aditional-links">
+
       </p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><ul>
-  <li>Improving traceability of the Executorch AI compiler for edge devices.</li>
-  <li>Designed and implemented the automatic tracing of torch.fx graph modifications with less than 3% overhead.</li>
+  <li>Analyzed scale-out network bottlenecks in shared KV cache storage using GitHub Copilot agentic traces.</li>
+  <li>Developed a multi-rack simulator to design GB200/VR200 NVL72 servers for agentic workloads.</li>
+</ul>
+
+    </div>
+  </div>
+
+  <div class="row clearfix layout layout-left border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="qualcomm">Qualcomm</h4><p><b>Engineering Intern</b></p><p>May 2025 - Aug 2025</p><p class="no-print aditional-links">
+
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><ul>
+  <li>Improved traceability in the ExecuTorch AI compiler for edge devices.</li>
+  <li>Developed an automated tracing tool of torch.fx graph transformations with negligible overhead.</li>
 </ul>
 
     </div>
@@ -107,8 +119,8 @@ BS in Electrical and Computer Engineering</p>
       </p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><ul>
-  <li>Designed and implemented the initial structure of a new Fully Homomorphic Encryption (FHE) library, with a focus on enabling easy integration of existing/future optimizations. (C++, CUDA)</li>
-  <li>Optimized the multi-gpu inference latency of Llama2 and ResNet18 within FHE.</li>
+  <li>Developed multi-GPU acceleration for Llama 2 and ResNet-18 under fully homomorphic encryption (FHE).</li>
+  <li>Designed the initial architecture and abstractions for a new FHE library.</li>
 </ul>
 
     </div>
@@ -123,34 +135,83 @@ BS in Electrical and Computer Engineering</p>
   <div class="col-md-12">
     <ul>
   <li>
-    <p><strong>Lynx: Enabling Efficient MoE Inference through Dynamic, Batch-Aware Expert Selection</strong> <br />
-Vima Gupta, <strong>Jae Hyung Ju</strong>, Kartik Sinha, Ada Gavrilovska, and Anand Iyer<br />
-<em>in submission</em></p>
+    <p><strong>TileLens: Efficiently Using Large-Granularity Memory Systems with Transparent Two-Dimensional Memory Layout</strong> <br />
+*<strong>Jae Hyung Ju</strong>, *Euijun Chung, Hritvik Taneja, Anish Saxena, Shinnung Jeong, Hyesoon Kim, and Moinuddin Qureshi (*equal contribution)<br />
+<em>IEEE International Symposium on High-Performance Computer Architecture (HPCA)</em>, 2027</p>
   </li>
   <li>
-    <p><strong>SplitStream: Maximizing System Bandwidth Utilization via Read-Write Buffer Management</strong> <br />
-Hritvik Taneja, <strong>Jae Hyung Ju</strong>, Anish Saxena, and Moinuddin Qureshi<br />
-<em>in submission</em></p>
+    <p><strong>Making Locality-Aware GEMM Compatible With Page-Granularity Placement on Chiplet GPUs</strong> <br />
+Euijun Chung, <strong>Jae Hyung Ju</strong>, and Hyesoon Kim<br />
+<em>IEEE Computer Architecture Letters (CAL)</em>, 2026</p>
   </li>
   <li>
-    <p><strong>Piccolo: Large-scale graph processing with fine-grained in-memory scatter-gather</strong> <br />
-Changmin Shin, Jaeyong Song, Hongsun Jang, Dogeun Kim, Jun Sung, Taehee Kwon, <strong>Jae Hyung Ju</strong>, Frank Liu, Yeonkyu Choi, and Jinho Lee <br />
+    <p><strong>Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather</strong> <br />
+Changmin Shin, Jaeyong Song, Hongsun Jang, Dogeun Kim, Jun Sung, Taehee Kwon, <strong>Jae Hyung Ju</strong>, Frank Liu, Yeonkyu Choi, and Jinho Lee<br />
 <em>IEEE International Symposium on High-Performance Computer Architecture (HPCA)</em>, 2025</p>
   </li>
   <li>
-    <p><strong>Neujeans: Private Neural Network Inference with Joint Optimization of Convolution and FHE Bootstrapping</strong> <br />
+    <p><strong>NeuJeans: Private Neural Network Inference with Joint Optimization of Convolution and FHE Bootstrapping</strong> <br />
 *<strong>Jae Hyung Ju</strong>, *Jaiyoung Park, Jongmin Kim, Minsik Kang, Donghwan Kim, Jung Hee Cheon, and Jung Ho Ahn (*equal contribution)<br />
 <em>ACM Conference on Computer and Communications Security (CCS)</em>, 2024</p>
   </li>
   <li>
     <p><strong>A Case for In-Memory Random Scatter-Gather for Fast Graph Processing</strong> <br />
-Changmin Shin, Taehee Kwon, Jaeyong Song, <strong>Jae Hyung Ju</strong>, Frank Liu, Yeonkyu Choi, and Jinho Lee <br />
+Changmin Shin, Taehee Kwon, Jaeyong Song, <strong>Jae Hyung Ju</strong>, Frank Liu, Yeonkyu Choi, and Jinho Lee<br />
 <em>IEEE Computer Architecture Letters (CAL)</em>, 2024</p>
+  </li>
+</ul>
+
+  </div>
+</div>
+
+          </div>
+        
+          <div class="container text-container">
+            <h3 id="preprints">Preprints</h3>
+            <div class="row clearfix">
+  <div class="col-md-12">
+    <ul>
+  <li>
+    <p><strong>BOOST: Concurrent Access to Host Memory and HBM to Accelerate LLM Inference</strong> <br />
+*Anish Saxena, *<strong>Jae Hyung Ju</strong>, Hritvik Taneja, Po-An Tsai, Aamer Jaleel, Christos Kozyrakis, and Moinuddin Qureshi (*equal contribution)<br />
+<em>arXiv preprint arXiv:2609.13592</em>, 2026</p>
+  </li>
+  <li>
+    <p><strong>SiFAR: Synchronization-Free All-Reduce for Low-Latency LLM Inference</strong> <br />
+Hritvik Taneja, Anish Saxena, Abhishek Revinipati, <strong>Jae Hyung Ju</strong>, Neal C. Crago, and Moinuddin Qureshi<br />
+<em>arXiv preprint arXiv:2607.08973</em>, 2026</p>
+  </li>
+  <li>
+    <p><strong>Lynx: Enabling Efficient MoE Inference through Dynamic Batch-Aware Expert Selection</strong> <br />
+Vima Gupta, <strong>Jae Hyung Ju</strong>, Kartik Sinha, Ada Gavrilovska, and Anand Iyer<br />
+<em>arXiv preprint arXiv:2411.08982</em>, 2026</p>
   </li>
   <li>
     <p><strong>NeuralEQ: Neural-Network-Based Equalizer for High-Speed Wireline Communication</strong> <br />
-Hanseok Kim, <strong>Jae Hyung Ju</strong>, Hyun Seok Choi, Hyeri Roh, Woo-Seok Choi <br />
+Hanseok Kim, <strong>Jae Hyung Ju</strong>, Hyun Seok Choi, Hyeri Roh, and Woo-Seok Choi<br />
 <em>arXiv preprint arXiv:2308.02133</em>, 2023</p>
+  </li>
+</ul>
+
+  </div>
+</div>
+
+          </div>
+        
+          <div class="container text-container">
+            <h3 id="patents">Patents</h3>
+            <div class="row clearfix">
+  <div class="col-md-12">
+    <ul>
+  <li>
+    <p><strong>Electronic device, server device for handling homomorphic encrypted data, and methods thereof</strong> <br />
+<strong>Jae Hyung Ju</strong>, Jaiyoung Park, Jung Hee Cheon, and Jung Ho Ahn<br />
+<em>U.S. Patent Application 18/972,318</em>, 2026</p>
+  </li>
+  <li>
+    <p><strong>Server device for handling homomorphic encrypted data, and methods thereof</strong> <br />
+<strong>Jae Hyung Ju</strong>, Jaiyoung Park, Jung Hee Cheon, and Jung Ho Ahn<br />
+<em>U.S. Patent Application 18/971,904</em>, 2026</p>
   </li>
 </ul>
 
