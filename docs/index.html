@@ -18,6 +18,21 @@
 {"@context":"https://schema.org","@type":"WebSite","description":"Homepage of Jae Hyung Ju","headline":"Jae Hyung Ju","name":"Jae Hyung Ju","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
+<style>
+  /* Narrower page so the About text roughly matches the photo's height. */
+  @media (min-width: 992px) { .container { width: 900px; } }
+  /* Center the About text vertically against the photo on wide screens. */
+  @media (min-width: 768px) {
+    .intro-container .row { display: flex; align-items: center; }
+    .intro-container .profile-img { margin-bottom: 0; }
+  }
+  /* Left-align body text; the theme's justify opens wide word gaps at this width. */
+  .page-content p, .page-content ul { text-align: left; }
+  /* Small note at the right end of a section heading, just above the dashed rule. */
+  h3 { position: relative; }
+  .heading-note { position: absolute; right: 0; bottom: 10px; font-size: 1.3rem; font-weight: 400; color: #777; }
+  @media (max-width: 767px) { .heading-note { position: static; display: block; margin-top: 6px; } }
+</style>
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"></head>
 <body class=""><div class="container header-container">
   <div class="row">
@@ -130,13 +145,13 @@ BS in Electrical and Computer Engineering</p>
           </div>
         
           <div class="container text-container">
-            <h3 id="publications">Publications</h3>
+            <h3 id="publications">Publications<span class="heading-note">*Equal contribution</span></h3>
             <div class="row clearfix">
   <div class="col-md-12">
     <ul>
   <li>
     <p><strong>TileLens: Efficiently Using Large-Granularity Memory Systems with Transparent Two-Dimensional Memory Layout</strong> <br />
-*<strong>Jae Hyung Ju</strong>, *Euijun Chung, Hritvik Taneja, Anish Saxena, Shinnung Jeong, Hyesoon Kim, and Moinuddin Qureshi (*equal contribution)<br />
+*<strong>Jae Hyung Ju</strong>, *Euijun Chung, Hritvik Taneja, Anish Saxena, Shinnung Jeong, Hyesoon Kim, and Moinuddin Qureshi<br />
 <em>IEEE International Symposium on High-Performance Computer Architecture (HPCA)</em>, 2027</p>
   </li>
   <li>
@@ -151,7 +166,7 @@ Changmin Shin, Jaeyong Song, Hongsun Jang, Dogeun Kim, Jun Sung, Taehee Kwon, <s
   </li>
   <li>
     <p><strong>NeuJeans: Private Neural Network Inference with Joint Optimization of Convolution and FHE Bootstrapping</strong> <br />
-*<strong>Jae Hyung Ju</strong>, *Jaiyoung Park, Jongmin Kim, Minsik Kang, Donghwan Kim, Jung Hee Cheon, and Jung Ho Ahn (*equal contribution)<br />
+*<strong>Jae Hyung Ju</strong>, *Jaiyoung Park, Jongmin Kim, Minsik Kang, Donghwan Kim, Jung Hee Cheon, and Jung Ho Ahn<br />
 <em>ACM Conference on Computer and Communications Security (CCS)</em>, 2024</p>
   </li>
   <li>
@@ -173,7 +188,7 @@ Changmin Shin, Taehee Kwon, Jaeyong Song, <strong>Jae Hyung Ju</strong>, Frank L
     <ul>
   <li>
     <p><strong>BOOST: Concurrent Access to Host Memory and HBM to Accelerate LLM Inference</strong> <br />
-*Anish Saxena, *<strong>Jae Hyung Ju</strong>, Hritvik Taneja, Po-An Tsai, Aamer Jaleel, Christos Kozyrakis, and Moinuddin Qureshi (*equal contribution)<br />
+*Anish Saxena, *<strong>Jae Hyung Ju</strong>, Hritvik Taneja, Po-An Tsai, Aamer Jaleel, Christos Kozyrakis, and Moinuddin Qureshi<br />
 <em>arXiv preprint arXiv:2609.13592</em>, 2026</p>
   </li>
   <li>
